@@ -1,17 +1,32 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11706121&assignment_repo_type=AssignmentRepo)
-> Identifique o produto que será construído. Para isso, nomeie-o da seguinte forma: imagine o produto em uma caixa, qual nome estaria 
-> escrito nela?
-# ToDoZ
+`CURSO`: Sistemas para Internet
 
-# Visão do Produto
-> Ter uma visão clara do produto é essencial para entender como as primeiras peças do quebra-cabeça do seu negócio se encaixarão. Essa
-> visão deve capturar a essência do valor que seu negócio oferece e transmitir uma mensagem clara e cativante para seus clientes. 
-> Utilize o seguinte modelo para criar a visão do seu produto:
+`DISCIPLINA`: Eixo 4 - Projeto: Aplicações distribuidas
 
-> Para [o nome do cliente final], cujo [o problema que precisa ser resolvido]. O [o nome do produto] é [a categoria do produto] que [o benefício-chave, razão para adquiri-lo]. Diferentemente de [alternativa da concorrência], o nosso produto [a diferença-chave].
+`SEMESTRE`: 2023/02
+# Frontend Interview
 
-Para freelancers que trabalham em diversos projetos, cujo desafio é gerenciar tarefas, priorizar atividades, manter o foco e medir o custo de cada projeto com precisão. O ToDoZ é um software de gerenciamento de tarefas e tempo baseado na técnica de pomodoro e método de Eisenhower, que melhora a concentração, aumenta a produtividade e permite um melhor planejamento financeiro. Diferentemente de outras opções no mercado, nosso produto oferece uma solução completa e eficiente para o dia a dia do freelancer.
+E se os candidatos às vagas de emprego de desenvolvimento Front-End tivessem uma ferramenta para ajudá-los a se preparar para os testes técnicos dos processos seletivos?
 
+Os setores de tecnologia são os que mais empregam no Brasil. Segundo a revista Exame (Dez., 2021) e a Associação das Empresas de Tecnologia da Informação e Comunicação (Brasscom), o setor de tecnologia contratou 147.248 novos profissionais no Brasil, um aumento de 149% em relação ao ano de 2020. O que significa que aproximadamente 59.000 novos profissionais foram empregados nesse período.
+
+Boa parte destas contratações foram destinadas a desenvolvedores Front-end. Este profissional é responsável pela criação da parte visual e interativa das aplicações, sejam elas web, nativas ou híbridas. O desenvolvedor Front-End usa de linguagens de programação, softwares e outras tecnologias, além dos mais diversos conhecimentos das áreas de comunicação e design, por exemplo, para alcançar os resultados almejados em usabilidade e engajamento dos usuários.
+
+Durante os processos seletivos é comum que os candidatos sejam submetidos a vários tipos de testes de conhecimentos na área pretendida, e para ser aprovado é necessário muito estudo e preparação.
+
+O objetivo geral deste sistema é a criação de um site responsivo e de fácil uso, que apresente ao usuário perguntas que poderiam ser usadas em uma entrevista ou provas avaliativas de seleção de vagas de emprego na área de desenvolvimento Front-End.
+
+## Integrantes
+
+* Ramon Vicente
+* César Augusto
+* Paulo Henrique Vieira
+* Rodolfo Cícero
+* Victor Hugo Rodrigues Duhau
+* Marcielen Mirian
+
+* ## Orientador
+
+* Luis Alberto Ferreira
 
 ## Etapa 1: Requisitos do produto
 
