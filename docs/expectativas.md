@@ -1,5 +1,9 @@
 # Expectativas
 
+O objetivo geral deste trabalho é a criação de um site responsivo e de fácil uso, que apresente ao usuário perguntas que poderiam ser usadas em uma entrevista ou provas avaliativas de seleção de vagas de emprego na área de desenvolvimento Front-End.
+
+Como expectativas específicas, podemos ressaltar:
+
 1. Espera-se uma interface intuitiva e fácil de usar para aumentar o engajamento do usuário;
 2. O sistema deve oferecer múltiplos temas relacionados à área;
 3. O sistema deve permitir ao usuário verificar seus erros e acertos;
