@@ -5,35 +5,49 @@
 > produto deve ter uma funcionalidade para isso. Qual é? Quais problemas da persona 
 > essa funcionalidade resolve? Quais benefícios ela traz para a persona? 
 
-## Funcionalidades para Ana, a Designer Freelancer:
+## Funcionalidades para João Pedro, o graduando:
 
-1. Registro de Tarefas: Permite a Ana criar e registrar todas as suas tarefas em diferentes projetos, garantindo uma visão clara de suas atividades diárias.
-2. Cronômetro Pomodoro: Oferece um cronômetro baseado na técnica de pomodoro para que Ana possa focar em suas tarefas com períodos de trabalho concentrado e pausas adequadas, melhorando sua produtividade.
-3. Priorização de Tarefas: Funcionalidade que permite que Ana classifique suas tarefas com base na importância e urgência, seguindo o método de Eisenhower, ajudando-a a gerenciar seu tempo de forma mais eficiente.
-4. Integração com Google Calendar: Permite que Ana integre suas tarefas e projetos ao Google Calendar, facilitando o acompanhamento de prazos e uma melhor organização de sua agenda.
-5. Relatório de Tempo por Projeto: Gera relatórios detalhados de tempo gasto em cada projeto, auxiliando Ana a calcular o custo real de seus serviços e facilitando a cobrança aos clientes.
+1. **Busca de quizzes**: Permite encontrar o quiz com o assunto desejado.
+2. **Realização de Quiz**: Permite responder perguntas sobre o tema buscado para se desenvolver.
+3. **Relatório do Quiz**: Permite avaliar as suas respostas e os acertos com base no quiz para melhorar para entrevistas.
+4. **Refazer quiz**: Permite que ele faça uma nova tentativa em cima dos quizzes já realizados para comparar seus resultados. 
 
-## Funcionalidades para Carlos, o Cliente Empreendedor:
-1. Acompanhamento de Freelancers: Permite que Carlos acompanhe o progresso de cada freelancer contratado em seus projetos, garantindo maior transparência e controle.
-2. Relatórios de Tempo e Custos: Fornece relatórios detalhados sobre o tempo gasto por cada freelancer em tarefas e projetos específicos, facilitando o controle dos custos e a tomada de decisões informadas.
-3. Avaliação de Desempenho: Oferece métricas para avaliar o desempenho dos freelancers, auxiliando Carlos na seleção dos profissionais mais eficientes para futuros projetos.
-4. Integração com Pagamento: Funcionalidade que possibilita a integração com sistemas de pagamento, permitindo que Carlos realize pagamentos precisos com base nos relatórios de tempo dos freelancers.
-5. Comunicação com Freelancers: Oferece um canal de comunicação para que Carlos possa se comunicar facilmente com os freelancers, tirar dúvidas e fornecer feedback sobre os projetos.
+## Funcionalidades para Aretha, a graduada em Design:
+1. **Busca de quizzes por assunto**: Permite encontrar quizzes sobre temas específicos da área de front-end, como HTML, CSS, JavaScript, React, Angular, entre outros.
+2. **Realização de quizzes**: Permite responder perguntas sobre os temas encontrados na busca, para testar seus conhecimentos.
+3. **Relatório do quiz**: Permite avaliar as respostas e os acertos, para identificar áreas que precisam de mais atenção.
+4. **Refazer quiz**: Permite fazer uma nova tentativa em cima dos quizzes já realizados, para comparar os resultados e identificar melhorias.
+
+## Funcionalidades para Amanda Ribeiro, a recém-graduada em Análise e Desenvolvimento de Sistemas:
+
+1. **Busca de quizzes por assunto:** Permite encontrar quizzes sobre temas específicos da área de desenvolvimento de sistemas, como lógica de programação, algoritmos, estrutura de dados, banco de dados, arquitetura de sistemas, entre outros.
+2. **Realização de quizzes:** Permite responder perguntas sobre os temas encontrados na busca, para testar seus conhecimentos.
+3. **Relatório do quiz:** Permite avaliar as respostas e os acertos, para identificar áreas que precisam de mais atenção.
+4. **Refazer quiz:** Permite fazer uma nova tentativa em cima dos quizzes já realizados, para comparar os resultados e identificar melhorias.
 
 
-## Tabela de Funcionalidades:
+| Funcionalidade | João Pedro | Aretha | Amanda |
+|---|---|---|---|
+| Busca de quizzes | **Obrigatório** | **Obrigatório** | **Obrigatório** |
+| Realização de quizzes | **Obrigatório** | **Obrigatório** | **Obrigatório** |
+| Relatório do quiz | **Obrigatório** | **Obrigatório** | **Obrigatório** |
+| Refazer quiz | **Opcional** | **Opcional** | **Opcional** |
+| Explicação das respostas | **Opcional** | **Recomendado** | **Recomendado** |
+| Sugestões de quizzes | **Opcional** | **Recomendado** | **Recomendado** |
+| Compartilhamento de resultados | **Opcional** | **Opcional** | **Opcional** |
 
-| Funcionalidades | Ana | Carlos |
-|-----------------|--------------|-----------------|
-| Registro de Tarefas | Sim | - |
-| Cronômetro Pomodoro | Sim | - |
-| Priorização de Tarefas | Sim | Sim |
-| Integração com Google Calendar | Sim | - |
-| Relatório de Tempo por Projeto |  - | Sim |
-| Acompanhamento de Freelancers | - | Sim |
-| Relatórios de Tempo e Custos | Sim | - |
-| Avaliação de Desempenho | - | Sim |
-| Integração com Pagamento | - | Sim |
-| Comunicação com Freelancers | - | Sim |
+**Explicação das funcionalidades**
+
+* **Obrigatório:** Funcionalidade essencial para todas as personas.
+* **Opcional:** Funcionalidade que pode ser adicionada para atender às necessidades específicas de uma ou mais personas.
+* **Recomendado:** Funcionalidade que é altamente recomendada para atender às necessidades de uma ou mais personas.
+
+**Justificativa da tabela**
+
+A tabela foi organizada de forma a atender às necessidades específicas de cada persona. Por exemplo, João Pedro, um graduando em Ciência da Computação, precisa de um aplicativo que o ajude a se preparar para entrevistas de emprego. Portanto, a funcionalidade de **Explicação das respostas** é recomendada para ele, pois pode ajudá-lo a entender por que suas respostas estão corretas ou incorretas.
+
+Aretha, uma graduada em Design, precisa de um aplicativo que a ajude a unir seus conhecimentos de design gráfico com o desenvolvimento front-end. Portanto, a funcionalidade de **Quizzes sobre desafios de programação** é recomendada para ela, pois pode ajudá-la a praticar suas habilidades de resolução de problemas.
+
+Amanda, uma recém-graduada em Análise e Desenvolvimento de Sistemas, precisa de um aplicativo que a ajude a se preparar para o mercado de trabalho. Portanto, a funcionalidade de **Quizzes sobre tecnologias específicas** é recomendada para ela, pois pode ajudá-la a aprender sobre tecnologias relevantes para o mercado de trabalho.
 
 [Retorna](../README.md)
