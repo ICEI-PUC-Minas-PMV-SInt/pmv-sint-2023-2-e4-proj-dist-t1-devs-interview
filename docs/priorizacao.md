@@ -1,29 +1,35 @@
 # Priorização das Funcionalidades
 
-> Priorize as funcionaliades do produto utilizando o método MoSCoW com as categorias de priorização do MoSCoW:
-> - Must have (Deve ter): Funcionalidades essenciais e obrigatórias que atendem a necessidades críticas das personas.
-> - Should have (Deveria ter): Funcionalidades importantes, mas não tão críticas como as "Must have", e que podem agregar bastante valor.
-> - Could have (Poderia ter): Funcionalidades desejáveis, mas que podem ser adiadas para versões futuras sem impactar significativamente o produto inicial.
-> - Won't have (Não deve ter): Funcionalidades que não serão incluídas no escopo atual do MVP.
-
-> Coloque as funcionalidades priorizadas em uma tabela conforme o exemplo a seguir.
-
 **Roadmap de Produto - Sprints de duração de 1 Mês:**
+**Sprint 1**
 
-|Sprint 1 | Funcionalidade                     | Persona       | Priorização  | Justificativa                                                                                                                                                                                                                                                               |
-|---------|-----------------------------------|---------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sprint 1 - Semana 1-4 | Registro de Tarefas            | Ana | Must have    | Essencial para Ana gerenciar tarefas em projetos diversos e organizar atividades diárias.                                                                                                                                     |
-|                        | Cronômetro Pomodoro            | Ana | Must have    | Fundamental para Ana aumentar a produtividade com intervalos focados e pausas. |
-|                        | Priorização de Tarefas         | Ana | Must have    | A priorização de tarefas com o método de Eisenhower ajudará Ana a organizar atividades com eficiência. |
-|                        | Integração com Google Calendar | Ana | Must have    | Permitirá a Ana visualizar tarefas e compromissos em ambas as plataformas para um planejamento eficiente. |
-|                        | Relatório de Tempo por Projeto | Ana | Should have  | Importante para a Ana acompanhar o tempo gasto em cada projeto para planejamento financeiro e insights sobre a eficiência das suas atividades.                                                                  |
+| Funcionalidade | Persona | Priorização | Justificativa |
+|---|---|---|---|
+| **Busca de quizzes** | João Pedro, Aretha, Amanda | **Must have** | Funcionalidade essencial para todas as personas, pois permite que elas encontrem quizzes sobre os temas que desejam aprender. |
+| **Realização de quizzes** | João Pedro, Aretha, Amanda | **Must have** | Funcionalidade essencial para todas as personas, pois permite que elas respondam a perguntas sobre os temas encontrados na busca. |
+| **Relatório do quiz** | João Pedro, Aretha, Amanda | **Must have** | Funcionalidade essencial para todas as personas, pois permite que elas avaliem seu desempenho e identifiquem áreas que precisam de mais atenção. |
 
-|Sprint 2 | Funcionalidade               | Persona       | Priorização  | Justificativa                                                                                                                      |
-|---------|-----------------------------|---------------|--------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Sprint 2 - Semana 5-8 | Acompanhamento de Freelancers| Carlos | Must have    | Essencial para Carlos gerenciar sua equipe de freelancers, acompanhar o progresso dos projetos e melhorar a eficiência e comunicação entre eles. |
-|                        | Relatórios de Tempo e Custos | Carlos | Must have    | Proporcionarão a Carlos uma visão abrangente do desempenho e dos custos de cada projeto, facilitando decisões estratégicas e planejamento financeiro.|
-|                        | Avaliação de Desempenho      | Carlos | Should have  | Ajudará a Carlos a avaliar o desempenho dos freelancers, identificar oportunidades de melhoria e aumentar a produtividade de sua equipe.|
-|                        | Integração com Pagamento     | Carlos | Could have   | A integração com métodos de pagamento pode ser adiada para versões futuras, com o foco principal na entrega das funcionalidades 'Must have' e 'Should have'.|
-|                        | Comunicação com Freelancers  | Carlos | Could have   | A comunicação integrada com os freelancers também pode ser adiada para versões futuras, considerando que Carlos já terá um MVP com funcionalidades essenciais para gerenciar sua equipe e projetos |
+**Sprint 2**
+
+| Funcionalidade | Persona | Priorização | Justificativa |
+|---|---|---|---|
+| **Refazer quiz** | João Pedro, Aretha, Amanda | **Should have** | Funcionalidade importante para todas as personas, pois permite que elas pratiquem suas respostas e melhorem seu desempenho. |
+| **Explicação das respostas** | João Pedro | **Should have** | Funcionalidade importante para João Pedro, pois pode ajudá-lo a entender por que suas respostas estão corretas ou incorretas. |
+| **Quizzes sobre desafios de programação** | Aretha | **Should have** | Funcionalidade importante para Aretha, pois pode ajudá-la a praticar suas habilidades de resolução de problemas. |
+
+**Sprint 3**
+
+| Funcionalidade | Persona | Priorização | Justificativa |
+|---|---|---|---|
+| **Sugestões de quizzes** | João Pedro, Aretha, Amanda | **Could have** | Funcionalidade desejável para todas as personas, pois pode ajudá-las a encontrar quizzes relevantes para seus interesses e desempenho. |
+| **Compartilhamento de resultados** | João Pedro, Aretha, Amanda | **Could have** | Funcionalidade desejável para todas as personas, pois pode ajudá-las a compartilhar seus resultados com amigos ou colegas. |
+| **Quizzes sobre tecnologias específicas** | Amanda | **Could have** | Funcionalidade desejável para Amanda, pois pode ajudá-la a aprender sobre tecnologias relevantes para o mercado de trabalho. |
+
+**Sprint 4**
+
+| Funcionalidade | Persona | Priorização | Justificativa |
+|---|---|---|---|
+| **Quizzes sobre soft skills** | Amanda | **Could have** | Funcionalidade desejável para Amanda, pois pode ajudá-la a desenvolver soft skills importantes para o mercado de trabalho. |
+
 
 [Retorna](../README.md)
