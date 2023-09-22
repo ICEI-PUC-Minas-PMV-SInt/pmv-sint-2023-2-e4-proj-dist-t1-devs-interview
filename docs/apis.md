@@ -1,16 +1,17 @@
 # Especificação de APIs
 
-> A especificação de APIs descreve os principais endpoints da API RESTful do produto
-> de software, os métodos HTTP associados a cada endpoint, suas descrições, os formatos
-> de respostas, os parâmetros de URL esperados e o mecanismo de autenticação e autorização 
-> utilizado.
+| Endpoint                    | Método | Descrição                              | Parâmetros                                       | Formato da Resposta | Autenticação e Autorização |
+| --------------------------- | ------ | -------------------------------------- | ------------------------------------------------- | -------------------- | --------------------------- |
+| /login                      | POST   | Realizar o login do usuário no sistema | NULL                                              | JSON                 | JWT Token                   |
+| /scores                     | DELETE | Deletar os scores                      | NULL                                              | JSON                 | JWT Token                   |
+| /questions                  | POST   | Cadastro/Edição de Perguntas           | question (dados da pergunta)                    | JSON                 | JWT Token                   |
+| /questions                  | GET    | Consulta de Perguntas                  | NULL                                              | JSON                 | JWT Token                   |
+| /quizzes                    | POST   | Cadastro/Edição de Quiz               | quiz (dados do quiz)                            | JSON                 | JWT Token                   |
+| /quizzes                    | GET    | Consulta de Quizzes                    | NULL                                              | JSON                 | JWT Token                   |
+| /users                      | POST   | Cadastro de Usuários                   | user (dados do usuário)                        | JSON                 | JWT Token                   |
+| /users                      | GET    | Consulta de Usuários                   | NULL                                              | JSON                 | JWT Token                   |
+| /users/{user}               | PUT    | Alterar dados do usuário               | user (novos dados do usuário)                  | JSON                 | JWT Token                   |
+| /users/{user}               | GET    | Buscar dados do usuário                | NULL                                              | JSON                 | JWT Token                   |
 
-| Endpoint                             | Método | Descrição                                      | Parâmetros                        | Formato da Resposta | Autenticação e Autorização |
-|--------------------------------------|--------|------------------------------------------------|-----------------------------------|---------------------|----------------------------|
-| /api/users/{user_id}/tasks/          | GET    | Obter todas as tarefas cadastradas             | user_id (string)                  | JSON                | JWT Token                  |
-| /api/users/{user_id}/tasks/{task_id} | POST   | Criar uma nova tarefa                          | user_id (string) task_id (string) | JSON                | JWT Token                  |
-| /api/users/{user_id}/tasks/{task_id} | GET    | Obter detalhes de uma tarefa específica        | user_id (string) task_id (string) | JSON                | JWT Token                  |
-| /api/users/{user_id}/tasks/{task_id} | PUT    | Atualizar os detalhes de uma tarefa específica | user_id (string) task_id (string) | JSON                | JWT Token                  |
-| /api/users/{user_id}/tasks/{task_id} | DELETE | Excluir uma tarefa específica                  | user_id (string) task_id (string) | JSON                | JWT Token                  |
 
 [Retorna](../README.md)
