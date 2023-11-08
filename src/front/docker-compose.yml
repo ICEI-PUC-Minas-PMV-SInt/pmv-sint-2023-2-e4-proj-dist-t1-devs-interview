@@ -1,0 +1,12 @@
+version: "3.7" # optional since v1.27.0
+services:
+  web:
+    image: roadmap-frontend-interview-dev:latest
+    container_name: roadmap-frontend-interview-dev
+    build: .
+    volumes:
+      - "./src:/app/src"
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000

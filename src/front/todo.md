@@ -1,0 +1,1 @@
+Adicionar puppeteer para os testes automatizados https://blog.logrocket.com/end-to-end-testing-react-jest-puppeteer/

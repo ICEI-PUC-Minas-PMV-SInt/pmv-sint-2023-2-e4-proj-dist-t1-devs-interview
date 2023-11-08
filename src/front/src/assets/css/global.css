@@ -1,0 +1,8 @@
+.swal2-show,
+.swal2-backdrop-show {
+  z-index: 99999999;
+}
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+}

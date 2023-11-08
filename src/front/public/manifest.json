@@ -1,0 +1,8 @@
+{
+  "name": "Roadmap Frontend Interview.",
+  "short_name": "rfendinterview",
+  "display": "standalone",
+  "background_color": "#fff",
+  "start_url": ".",
+  "description": "Roadmap Frontend Interview."
+}
