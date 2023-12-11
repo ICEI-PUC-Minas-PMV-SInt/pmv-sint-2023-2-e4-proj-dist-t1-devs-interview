@@ -9,6 +9,7 @@ namespace InterviewAPI.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
     using System.Collections.Generic;
+    using System.Linq;
 
     namespace InterviewAPI.Controllers
     {
@@ -35,6 +36,20 @@ namespace InterviewAPI.Controllers
                
                 var theme = _context.Themes.SingleOrDefault(t => t.Questions.Any(q => q.Id == questionId));
 
+                var query = 1;
+                switch(theme.Id)
+                {
+                    case 1:
+                        query = question.Id - 2;
+                        break;
+                    case 2:
+                       query = question.Id - 7;
+                       break;
+                    case 3:
+                       query = question.Id - 12;
+                       break;
+                }
+
                 if (theme == null)
                 {
                     return NotFound();
@@ -44,15 +59,12 @@ namespace InterviewAPI.Controllers
 
                 var nextQuestion = _context.Questions.SingleOrDefault(q => q.Id == questionId + 1);
 
-                // Determine if the next question belongs to a different theme
                 var nextThemeId = nextQuestion != null ? _context.Themes.SingleOrDefault(t => t.Questions.Any(q => q.Id == nextQuestion.Id)).Id : -1;
 
                 var nextQuestionId = (nextQuestion == null || nextThemeId != theme.Id) ? (null) : (questionId + 1).ToString();
 
-                // Get the previous question
                 var prevQuestion = _context.Questions.SingleOrDefault(q => q.Id == questionId - 1);
 
-                // Determine if the previous question is less than 0 or belongs to a different theme
                 var prevThemeId = prevQuestion != null ? _context.Themes.SingleOrDefault(t => t.Questions.Any(q => q.Id == prevQuestion.Id)).Id : -1;
 
                 var prevQuestionId = (prevQuestion == null || prevThemeId != theme.Id) ? (questionId + 4).ToString() : (questionId - 1).ToString();
@@ -67,7 +79,7 @@ namespace InterviewAPI.Controllers
                         description = question.Description,
                         correctAnswer = question.CorrectAnswer,
                         options = options,
-                        index = 0,
+                        index = query,
                         quizId = $"{theme.Id}.{question.Id}",
                         quizTitle = theme.Name,
                         nextQuestionId = nextQuestionId, 

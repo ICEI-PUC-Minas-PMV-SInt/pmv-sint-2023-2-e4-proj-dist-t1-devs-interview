@@ -5,7 +5,7 @@
 namespace InterviewAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class azuresqlserver : Migration
+    public partial class m02 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace InterviewAPI.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20231107180539_azuresqlserver")]
-    partial class azuresqlserver
+    [Migration("20231206185639_m02")]
+    partial class m02
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
