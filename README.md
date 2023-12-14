@@ -59,4 +59,4 @@ O objetivo geral deste sistema é a criação de um site responsivo e de fácil 
 ### Etapa 5: Entrega e apresentação do produto
 
 * [Roteiro para entrega e apresentação](docs/roteiro-de-entrega-e-apresentacao.md)
-* [Vídeo Apresentação]
+
